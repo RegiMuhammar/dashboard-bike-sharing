@@ -31,10 +31,10 @@ st.markdown(bg_css, unsafe_allow_html=True)
 
 
 # Load Image
-main_df = pd.read_csv("./dashboard/main_data.csv")
+main_df = pd.read_csv("main_data.csv")
 
 #opening the image
-image = Image.open('./dashboard/bikesharing_img.jpg')
+image = Image.open('bikesharing_img.jpg')
 
 
 # Konversi kolom 'date' menjadi tipe data datetime
