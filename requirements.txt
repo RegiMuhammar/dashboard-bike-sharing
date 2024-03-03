@@ -1,5 +1,3 @@
-os
-zipfile
 pandas
 numpy
 matplotlib
